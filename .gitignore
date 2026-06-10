@@ -1,0 +1,17 @@
+# data & model artifacts (too large for git; host on HF / dataset repo)
+*.parquet
+*.xlsx
+*.pkl
+*.npz
+runs/
+*.safetensors
+*.bin
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# figures are regenerable; keep the folder but ignore bulky outputs if desired
+# figures/*.png
